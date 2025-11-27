@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AdWords</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<h1>AdWords</h1>
+
+<div id="login">
+  <input type="text" id="username" placeholder="Ton pseudo...">
+  <button onclick="login()">Commencer</button>
+</div>
+
+<div id="menu" style="display:none">
+  <h2>Choisis un thème</h2>
+  <button onclick="startQuiz('quotidien')">Quotidien</button>
+  <button onclick="startQuiz('nourriture')">Nourriture</button>
+  <button onclick="startQuiz('sport')">Sport</button>
+  <button onclick="startQuiz('musique')">Musique</button>
+  <button onclick="startQuiz('skills')">Skills</button>
+
+  <h3>Créer ton quiz</h3>
+  <button onclick="openCustom()">Créer Quiz</button>
+
+  <p id="xp-display"></p>
+</div>
+
+<div id="quiz" style="display:none">
+  <h2 id="theme-title"></h2>
+  <p id="question"></p>
+  <input type="text" id="answer">
+  <button onclick="submitAnswer()">Valider</button>
+  <p id="score"></p>
+</div>
+
+<div id="create-quiz" style="display:none">
+  <h2>Créer ton quiz</h2>
+  <input type="text" id="fr-word" placeholder="Mot français">
+  <input type="text" id="en-word" placeholder="Mot anglais">
+  <button onclick="addCustomWord()">Ajouter</button>
+  <button onclick="startCustomQuiz()">Lancer Quiz</button>
+  <p id="custom-quiz-msg"></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
