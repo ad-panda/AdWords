@@ -1,6 +1,32 @@
 [
-  {
-    "fr": "chanson",
-    "en": "song"
-  }
+  {"fr": "chanson", "en": "song"},
+  {"fr": "guitare", "en": "guitar"},
+  {"fr": "piano", "en": "piano"},
+  {"fr": "batterie", "en": "drums"},
+  {"fr": "violon", "en": "violin"},
+  {"fr": "flûte", "en": "flute"},
+  {"fr": "saxophone", "en": "saxophone"},
+  {"fr": "chant", "en": "singing"},
+  {"fr": "album", "en": "album"},
+  {"fr": "concert", "en": "concert"},
+  {"fr": "artiste", "en": "artist"},
+  {"fr": "composition", "en": "composition"},
+  {"fr": "rythme", "en": "rhythm"},
+  {"fr": "mélodie", "en": "melody"},
+  {"fr": "harmonie", "en": "harmony"},
+  {"fr": "orchestration", "en": "orchestration"},
+  {"fr": "partition", "en": "sheet music"},
+  {"fr": "trompette", "en": "trumpet"},
+  {"fr": "clarinette", "en": "clarinet"},
+  {"fr": "violoncelle", "en": "cello"},
+  {"fr": "chœur", "en": "choir"},
+  {"fr": "improvisation", "en": "improvisation"},
+  {"fr": "solo", "en": "solo"},
+  {"fr": "duo", "en": "duet"},
+  {"fr": "trio", "en": "trio"},
+  {"fr": "quartet", "en": "quartet"},
+  {"fr": "enregistrement", "en": "recording"},
+  {"fr": "microphone", "en": "microphone"},
+  {"fr": "studio", "en": "studio"},
+  {"fr": "instrument", "en": "instrument"}
 ]

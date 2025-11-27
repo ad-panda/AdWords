@@ -1,6 +1,32 @@
 [
-  {
-    "fr": "parler",
-    "en": "speak"
-  }
+  {"fr": "parler", "en": "speak"},
+  {"fr": "écouter", "en": "listen"},
+  {"fr": "lire", "en": "read"},
+  {"fr": "écrire", "en": "write"},
+  {"fr": "apprendre", "en": "learn"},
+  {"fr": "enseigner", "en": "teach"},
+  {"fr": "travailler", "en": "work"},
+  {"fr": "jouer", "en": "play"},
+  {"fr": "courir", "en": "run"},
+  {"fr": "marcher", "en": "walk"},
+  {"fr": "cuisiner", "en": "cook"},
+  {"fr": "nettoyer", "en": "clean"},
+  {"fr": "conduire", "en": "drive"},
+  {"fr": "nager", "en": "swim"},
+  {"fr": "dessiner", "en": "draw"},
+  {"fr": "peindre", "en": "paint"},
+  {"fr": "chanter", "en": "sing"},
+  {"fr": "danser", "en": "dance"},
+  {"fr": "jouer de la guitare", "en": "play guitar"},
+  {"fr": "jouer du piano", "en": "play piano"},
+  {"fr": "réparer", "en": "fix"},
+  {"fr": "programmer", "en": "code"},
+  {"fr": "créer", "en": "create"},
+  {"fr": "organiser", "en": "organize"},
+  {"fr": "planifier", "en": "plan"},
+  {"fr": "voyager", "en": "travel"},
+  {"fr": "photographier", "en": "photograph"},
+  {"fr": "filmer", "en": "film"},
+  {"fr": "chercher", "en": "search"},
+  {"fr": "trouver", "en": "find"}
 ]

@@ -1,6 +1,32 @@
 [
-  {
-    "fr": "football",
-    "en": "soccer"
-  }
+  {"fr": "football", "en": "soccer"},
+  {"fr": "basketball", "en": "basketball"},
+  {"fr": "tennis", "en": "tennis"},
+  {"fr": "natation", "en": "swimming"},
+  {"fr": "course", "en": "running"},
+  {"fr": "cyclisme", "en": "cycling"},
+  {"fr": "ski", "en": "skiing"},
+  {"fr": "snowboard", "en": "snowboarding"},
+  {"fr": "yoga", "en": "yoga"},
+  {"fr": "gymnastique", "en": "gymnastics"},
+  {"fr": "volleyball", "en": "volleyball"},
+  {"fr": "rugby", "en": "rugby"},
+  {"fr": "boxe", "en": "boxing"},
+  {"fr": "karaté", "en": "karate"},
+  {"fr": "escalade", "en": "climbing"},
+  {"fr": "marche", "en": "walking"},
+  {"fr": "tir à l’arc", "en": "archery"},
+  {"fr": "golf", "en": "golf"},
+  {"fr": "plongée", "en": "diving"},
+  {"fr": "surf", "en": "surfing"},
+  {"fr": "hockey", "en": "hockey"},
+  {"fr": "boxe thaï", "en": "muay thai"},
+  {"fr": "aérobic", "en": "aerobics"},
+  {"fr": "danse", "en": "dance"},
+  {"fr": "tir", "en": "shooting"},
+  {"fr": "football américain", "en": "american football"},
+  {"fr": "handball", "en": "handball"},
+  {"fr": "escrime", "en": "fencing"},
+  {"fr": "athlétisme", "en": "athletics"},
+  {"fr": "plongée libre", "en": "free diving"}
 ]

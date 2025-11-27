@@ -1,6 +1,32 @@
 [
-  {
-    "fr": "pomme",
-    "en": "apple"
-  }
+  {"fr": "pomme", "en": "apple"},
+  {"fr": "banane", "en": "banana"},
+  {"fr": "orange", "en": "orange"},
+  {"fr": "raisin", "en": "grape"},
+  {"fr": "fraise", "en": "strawberry"},
+  {"fr": "cerise", "en": "cherry"},
+  {"fr": "poire", "en": "pear"},
+  {"fr": "melon", "en": "melon"},
+  {"fr": "pastèque", "en": "watermelon"},
+  {"fr": "citron", "en": "lemon"},
+  {"fr": "tomate", "en": "tomato"},
+  {"fr": "carotte", "en": "carrot"},
+  {"fr": "concombre", "en": "cucumber"},
+  {"fr": "poivron", "en": "bell pepper"},
+  {"fr": "oignon", "en": "onion"},
+  {"fr": "ail", "en": "garlic"},
+  {"fr": "riz", "en": "rice"},
+  {"fr": "pâtes", "en": "pasta"},
+  {"fr": "pain", "en": "bread"},
+  {"fr": "fromage", "en": "cheese"},
+  {"fr": "lait", "en": "milk"},
+  {"fr": "œuf", "en": "egg"},
+  {"fr": "beurre", "en": "butter"},
+  {"fr": "yaourt", "en": "yogurt"},
+  {"fr": "viande", "en": "meat"},
+  {"fr": "poisson", "en": "fish"},
+  {"fr": "poulet", "en": "chicken"},
+  {"fr": "bœuf", "en": "beef"},
+  {"fr": "porc", "en": "pork"},
+  {"fr": "crevette", "en": "shrimp"}
 ]
