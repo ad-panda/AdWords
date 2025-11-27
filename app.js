@@ -47,10 +47,16 @@ function showQuestion() {
     return;
   }
 
+
+
   document.getElementById("question").innerText =
-    `Traduis : "${currentQuiz[currentIndex].fr}"`;
+    `Traduis le mot ${++currentIndex} / ${currentQuiz.length} : 
+    "${currentQuiz[--currentIndex].fr}"`;
 
   document.getElementById("answer").value = "";
+
+  document.getElementById("score").innerText =
+    `Ton score actuel est de : ${score}/${currentQuiz.length}`;
 }
 
 function submitAnswer() {
