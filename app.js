@@ -73,10 +73,10 @@ function finishQuiz() {
   const percent = (score / currentQuiz.length) * 100;
   let xp = 0;
 
-  if (percent >= 100) xp = 1;
-  else if (percent >= 75) xp = 0.75;
-  else if (percent >= 50) xp = 0.5;
-  else if (percent >= 25) xp = 0.25;
+  if (percent >= 100) xp = 1*30;
+  else if (percent >= 75) xp = 0.75*30;
+  else if (percent >= 50) xp = 0.5*30;
+  else if (percent >= 25) xp = 0.25*30;
 
   user.xp += xp;
   saveUser();
