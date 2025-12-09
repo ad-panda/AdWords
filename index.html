@@ -17,6 +17,16 @@
 </div>
 
 <div id="menu" style="display:none">
+  <button class="hamburger-btn" onclick="openProfile()">☰</button>
+
+  <div class="level-container">
+    <h2 id="level-display">Niveau 1</h2>
+    <div class="progress-bar">
+      <div id="xp-fill" class="progress-fill"></div>
+    </div>
+    <p id="xp-text" style="font-size: 0.9em; color: #666;">0 / 500 XP</p>
+  </div>
+
   <h2>Choisis un thème</h2>
   <button onclick="startQuiz('quotidien')">Quotidien</button>
   <br>
@@ -30,18 +40,43 @@
 
   <h3>Créer ton quiz</h3>
   <button onclick="openCustom()">Créer Quiz</button>
+</div>
 
-  <p id="xp-display"></p>
+<div id="profile" style="display:none">
+  <h2>Mon Profil</h2>
+  
+  <label>Mon Pseudo :</label>
+  <br>
+  <input type="text" id="edit-username">
+  <button onclick="saveProfileName()">Sauvegarder Nom</button>
+
+  <hr>
+
+  <h3>Mes Statistiques</h3>
+  <p id="stat-text"></p>
+
+  <br><br>
+  <button onclick="closeProfile()">Retour au Menu</button>
 </div>
 
 <div id="quiz" style="display:none">
   <h2 id="theme-title"></h2>
-  <p id="question"></p>
-  <input type="text" id="answer">
-  <br>
-  <button onclick="submitAnswer()">Valider</button>
-  <br><br><br><br><br><br><br><br><br>
-  <button onclick="location.reload()">Retour menu</button>
+  
+  <div id="question-area">
+    <p id="question"></p>
+    <input type="text" id="answer" autocomplete="off" placeholder="Ta réponse...">
+    <br>
+    <button id="btn-validate" onclick="submitAnswer()">Valider</button>
+  </div>
+
+  <div id="feedback-area" style="display:none; margin-top: 20px;">
+    <h3 id="feedback-msg"></h3>
+    <p id="correction-text"></p>
+    <button id="btn-next" onclick="nextQuestion()">Question Suivante</button>
+  </div>
+
+  <br><br><br>
+  <button onclick="location.reload()" style="background-color: #666;">Abandonner / Menu</button>
   <p id="score"></p>
 </div>
 
@@ -52,6 +87,8 @@
   <button onclick="addCustomWord()">Ajouter</button>
   <button onclick="startCustomQuiz()">Lancer Quiz</button>
   <p id="custom-quiz-msg"></p>
+  <br>
+  <button onclick="location.reload()" style="background-color: #666;">Retour</button>
 </div>
 
 <script src="app.js"></script>
